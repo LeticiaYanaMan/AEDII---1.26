@@ -103,9 +103,9 @@ int main() {
         scanf("%d", &val);
         NEP += ADD(&cabeca, &final, val);
     }
-
-    PRINT(&cabeca);
+    
     printf("%d\n", NEP);
+    PRINT(&cabeca);
 
     return 0;
 }
