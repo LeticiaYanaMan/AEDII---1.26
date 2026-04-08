@@ -1,93 +1,88 @@
 6
-5 10 2 7 9 5
-  
+5 10 2 7 5 9 
+
 mergesort comeco: 0 e fim: 5
 mergesort meio: 2
-  
+
 mergesort comeco: 0 e fim: 2
 mergesort meio: 1
-  
+
 mergesort comeco: 0 e fim: 1
 mergesort meio: 0
-  
+
 mergesort comeco: 0 e fim: 0
-  
+
 mergesort comeco: 1 e fim: 1
-  
+
 comeco: 0, meio: 0, fim: 1
 tamcom: 1
 tamfim: 1
-Vetor L:
-5
-Vetor R:
-10
+Vetor L: 5
+Vetor R: 10
 aux: 1
+quedas: 0
 i: 1, j: 0, idx: 1
 i final: 1
 j final: 1
-  
+
 mergesort comeco: 2 e fim: 2
-  
+
 comeco: 0, meio: 1, fim: 2
 tamcom: 2
 tamfim: 1
-Vetor L:
-5 10
-Vetor R:
-2
+Vetor L: 5 10
+Vetor R: 2
 aux: 0
+quedas: 2
 i: 0, j: 1, idx: 1
 i final: 2
 j final: 1
-  
+
 mergesort comeco: 3 e fim: 5
 mergesort meio: 4
-  
+
 mergesort comeco: 3 e fim: 4
 mergesort meio: 3
-  
+
 mergesort comeco: 3 e fim: 3
-  
+
 mergesort comeco: 4 e fim: 4
-  
+
 comeco: 3, meio: 3, fim: 4
 tamcom: 1
 tamfim: 1
-Vetor L:
-7
-Vetor R:
-9
+Vetor L: 7
+Vetor R: 5
 aux: 1
-i: 1, j: 0, idx: 4
+quedas: 2
+i: 0, j: 1, idx: 4
 i final: 1
 j final: 1
-  
+
 mergesort comeco: 5 e fim: 5
-  
+
 comeco: 3, meio: 4, fim: 5
 tamcom: 2
 tamfim: 1
-Vetor L:
-7 9
-Vetor R:
-5
+Vetor L: 5 7
+Vetor R: 9
 aux: 2
-i: 0, j: 1, idx: 4
+quedas: 2
+i: 2, j: 0, idx: 5
 i final: 2
 j final: 1
-  
+
 comeco: 0, meio: 2, fim: 5
 tamcom: 3
 tamfim: 3
-Vetor L:
-2 5 10
-Vetor R:
-5 7 9
+Vetor L: 2 5 10
+Vetor R: 5 7 9
 aux: 3
+quedas: 2
 i: 2, j: 3, idx: 5
 i final: 3
 j final: 3
 
-  
+
 2
 2 5 5 7 9 10
